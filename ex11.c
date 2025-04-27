@@ -30,7 +30,7 @@ if (obj==1) {
     else {
         if (acao==1) {
         printf("Você dispara em direção à caverna. A areia queima sob seus pés. Mas os guardas conhecem Chyrnax melhor do que qualquer forasteiro; emboscam você no meio do caminho.\n\nVocê é capturado.\n\nVOCÊ PERDEU.\n");
-        return 1;
+        return 0;
 
         }
         else {
@@ -44,16 +44,12 @@ if (obj==1) {
 }
 else if (obj==2) {
 printf("O fuzil emite um pulso estranho quando você o segura. Antes que você possa entender seu funcionamento, ele libera uma explosão instável que te atinge em cheio.\n\nVOCÊ PERDEU.\n");
-    return 1;
+    return 0;
 }
 else {
 printf("Erro! Insira um valor válido.\n");
 
 return 1;
 }
-
-
-
-return 0;
 
 }
